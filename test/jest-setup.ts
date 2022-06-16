@@ -1,6 +1,6 @@
-import {SetupServer} from '@src/server';
+import { SetupServer } from '@src/server';
 import supertest from 'supertest';
-import {SuperTest, Test} from 'supertest';
+import { SuperTest, Test } from 'supertest';
 
 declare global {
   // eslint-disable-next-line no-var
