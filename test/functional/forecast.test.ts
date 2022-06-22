@@ -26,7 +26,6 @@ describe(`Beach forecast functional tests`, () => {
         params:
           'swellDirection%2CswellHeight%2CswellPeriod%2CwaveDirection%2CwaveHeight%2CwindDirection%2CwindSpeed',
         source: 'noaa',
-        end: '1592113802',
         lat: '-33.792726',
         lng: '151.289824',
       })
@@ -47,7 +46,6 @@ describe(`Beach forecast functional tests`, () => {
         params:
           'swellDirection%2CswellHeight%2CswellPeriod%2CwaveDirection%2CwaveHeight%2CwindDirection%2CwindSpeed',
         source: 'noaa',
-        end: '1592113802',
         lat: '-33.792726',
         lng: '151.289824',
       })
