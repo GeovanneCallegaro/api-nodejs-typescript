@@ -8,7 +8,7 @@ declare global {
 }
 
 let server: SetupServer;
-jest.setTimeout(300000);
+jest.setTimeout(100000);
 beforeAll(async () => {
   server = new SetupServer();
   await server.init();
