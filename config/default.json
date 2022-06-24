@@ -1,6 +1,9 @@
 {
   "App": {
     "port": 3000,
+    "auth": {
+      "key": "some-key"
+    },
     "database": {
       "mongoUrl": "mongodb+srv://geovanne:7kXf7riLDRUPjmGR@cluster0.kpn58.mongodb.net/?retryWrites=true&w=majority"
     },
