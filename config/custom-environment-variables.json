@@ -1,0 +1,14 @@
+{
+  "App": {
+    "port": 3000,
+    "resources": {
+      "StormGlass": {
+        "apiUrl": "https://api.stormglass.io/v2",
+        "apiToken": "b32138c4-edc5-11ec-8af0-0242ac130002-b3213932-edc5-11ec-8af0-0242ac130002"
+      }
+    },
+    "auth": {
+      "key": "some-key"
+    }
+  }
+}
