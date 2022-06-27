@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start:dev": "ts-node-dev --transpile-only src/index.ts",
-    "start": "npm run build && node dist/src/index.js",
+    "start": "node dist/src/index.js",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
     "test": "npm run test:unit && npm run test:functional",
