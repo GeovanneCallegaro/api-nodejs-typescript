@@ -32,9 +32,9 @@ describe('Rating Service', () => {
     it('should get a rating of 1 for an ok point', () => {
       const pointData = {
         swellHeight: 0.4,
-      }
+      };
 
-      const point = {...defaultPoint, ...pointData}
+      const point = { ...defaultPoint, ...pointData };
       const rating = defaultRating.getRateForPoint(point);
       expect(rating).toBe(1);
     });
@@ -42,11 +42,11 @@ describe('Rating Service', () => {
     it('should get a rating of 3 for a point with offshore winds and a half overhead height', () => {
       const point = {
         ...defaultPoint,
-        ... {
+        ...{
           swellHeight: 0.7,
-          windDirection: 250
-        }
-      }
+          windDirection: 250,
+        },
+      };
       const rating = defaultRating.getRateForPoint(point);
       expect(rating).toBe(3);
     });
