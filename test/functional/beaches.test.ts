@@ -44,8 +44,10 @@ describe('Beaches functional tests', () => {
         .set({ 'x-access-token': token })
         .send(newBeach);
       expect(response.status).toBe(422);
-      expect(response.body).toStrictEqual({
-        error:
+      expect(response.body).toEqual({
+        code: 422,
+        error: 'Unprocessable Entity',
+        message:
           'Beach validation failed: lat: Cast to Number failed for value "invalid_value" (type string) at path "lat"',
       });
     });
